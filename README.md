@@ -1,6 +1,6 @@
 Improving Visual Grounding with Visual-Linguistic Verification and Iterative Reasoning
 ========
-This is the official implementation of [Improving Visual Grounding with Visual-Linguistic Verification and Iterative Reasoning]().
+This is the official implementation of [Improving Visual Grounding with Visual-Linguistic Verification and Iterative Reasoning](https://arxiv.org/abs/2205.00272).
 
 *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022.*
 
@@ -18,7 +18,7 @@ Our proposed framework for visual grounding. With the features from the two moda
 
 The models are available in [Google Drive](https://drive.google.com/drive/folders/1fZsUYV3T2ltw_sLBTXFMmFNIyIKOCM2I?usp=sharing).
 
-<table>
+<table style="width:90%; text-align:center">
 <thead>
   <tr>
     <th></th>
@@ -134,7 +134,7 @@ If you find our code useful, please cite our paper.
 ```
 @inproceedings{yang2022vgvl,
   title={Improving Visual Grounding with Visual-Linguistic Verification and Iterative Reasoning},
-  author={Yang, Li and Xu, Yan and Yuan, Chunfeng and  Liu, Wei and  Li, Bing and  Hu, Weiming},
+  author={Yang, Li and Xu, Yan and Yuan, Chunfeng and Liu, Wei and Li, Bing and Hu, Weiming},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   year={2022}
 }
