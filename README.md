@@ -1,14 +1,21 @@
 Improving Visual Grounding with Visual-Linguistic Verification and Iterative Reasoning
 ========
 This is the official implementation of [Improving Visual Grounding with Visual-Linguistic Verification and Iterative Reasoning](https://arxiv.org/abs/2205.00272).
-
 *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022.*
 
 ## Introduction
 Our proposed framework for visual grounding. With the features from the two modalities as input, the visual-linguistic verification module and language-guided context encoder establish discriminative features for the referred object. Then, the multi-stage cross-modal decoder iteratively mulls over all the visual and linguistic features to identify and localize the object.
 
 <p align="center">
-  <img src="./docs/intro.png" width="46.8%"/>
+  <img src="docs/intro.svg" width="46.68%"/>
+</p>
+
+
+## Visualization
+For different input images and texts, we visualize the verification scores, the iterative attention maps of the multi-stage decoder, and the final localization results.
+
+<p align="center">
+  <img src="docs/vis_demo.svg" width="100%"/>
 </p>
 
 
